@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { IoSpeedometer } from "react-icons/io5";
 import { GiWeight } from "react-icons/gi";
@@ -109,7 +109,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Econom.one.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                   <button>Rent Car</button>
                 </div>  
               </div>
               <div className='firstInfo'>
@@ -156,7 +156,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Econom.two.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                    <button>Rent Car</button>
                 </div>  
               </div>
               <div className='firstInfo'>
@@ -203,7 +203,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Econom.three.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                    <button>Rent Car</button>
                 </div>  
               </div>
           </div>
@@ -258,7 +258,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Midle.one.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                    <button>Rent Car</button>
                 </div>  
               </div>
               <div className='firstInfo'>
@@ -305,7 +305,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Midle.two.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                    <button>Rent Car</button>
                 </div>  
               </div>
               <div className='firstInfo'>
@@ -352,7 +352,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Midle.three.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                   <button>Rent Car</button>
                 </div>  
               </div>
           </div>
@@ -407,7 +407,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Premium.one.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+               <button>Rent Car</button>
                 </div>  
               </div>
               <div className='firstInfo'>
@@ -454,7 +454,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Premium.two.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                    <button>Rent Car</button>
                 </div>  
               </div>
               <div className='firstInfo'>
@@ -501,7 +501,7 @@ export default function Main() {
                 <div style={{borderBottom:'2px dashed #000'}}></div>
                 <div className='priceCar'>
                     <span style={{fontSize:'20px'}}>{info.name.Premium.three.price} <span style={{fontSize:'10px'}}>/Day</span></span>
-                    <Link to="/pay"><button>Rent Car</button></Link>
+                    <button>Rent Car</button>
                 </div>  
               </div>
           </div>
